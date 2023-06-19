@@ -1,0 +1,18 @@
+[25-Oct-2022 00:53:47 America/New_York] Default exception handler: Can't find data record in database table course. Debug: SELECT * FROM {course} WHERE id = ?
+[array (
+  0 => 3,
+)]
+Error code: invalidrecord
+* line 1646 of /lib/dml/moodle_database.php: dml_missing_record_exception thrown
+* line 1622 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 33 of /course/view.php: call to moodle_database->get_record()
+
+[10-Nov-2022 09:35:05 America/New_York] Default exception handler: Can't find data record in database table course. Debug: SELECT * FROM {course} WHERE id = ?
+[array (
+  0 => 4,
+)]
+Error code: invalidrecord
+* line 1646 of /lib/dml/moodle_database.php: dml_missing_record_exception thrown
+* line 1622 of /lib/dml/moodle_database.php: call to moodle_database->get_record_select()
+* line 33 of /course/view.php: call to moodle_database->get_record()
+

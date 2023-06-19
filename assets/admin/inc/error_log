@@ -1,0 +1,21 @@
+[12-Apr-2023 11:47:56 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 11:47:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 11:47:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 11:47:57 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 11:47:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 11:47:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 11:47:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sec_session_start() in /home3/thestr/public_html/assets/admin/inc/process_login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/thestr/public_html/assets/admin/inc/process_login.php on line 9
+[12-Apr-2023 11:47:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 11:54:44 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 11:54:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sec_session_start() in /home3/thestr/public_html/assets/admin/inc/process_login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/thestr/public_html/assets/admin/inc/process_login.php on line 9
+[12-Apr-2023 12:04:49 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home3/thestr/public_html/assets/admin/inc/db.php on line 13
+[12-Apr-2023 12:04:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sec_session_start() in /home3/thestr/public_html/assets/admin/inc/process_login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/thestr/public_html/assets/admin/inc/process_login.php on line 9

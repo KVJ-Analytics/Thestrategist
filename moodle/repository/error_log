@@ -1,0 +1,12 @@
+[28-Aug-2022 05:41:13 America/New_York] Potential coding error: Unexpected output whilst processing AJAX request. This could be caused by trailing whitespace. Output received: '<'
+[28-Aug-2022 09:52:12 America/New_York] Potential coding error: Unexpected output whilst processing AJAX request. This could be caused by trailing whitespace. Output received: '<'
+[28-Aug-2022 22:16:30 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: Unexpected output whilst processing AJAX request. This could be caused by trailing whitespace. Output received: '&lt;' Debug: 
+Error code: codingerror
+* line 77 of /lib/ajax/ajaxlib.php: coding_exception thrown
+* line 329 of /repository/repository_ajax.php: call to ajax_check_captured_output()
+
+[28-Aug-2022 22:18:02 America/New_York] Default exception handler: Coding error detected, it must be fixed by a programmer: Unexpected output whilst processing AJAX request. This could be caused by trailing whitespace. Output received: '&lt;' Debug: 
+Error code: codingerror
+* line 77 of /lib/ajax/ajaxlib.php: coding_exception thrown
+* line 342 of /repository/repository_ajax.php: call to ajax_check_captured_output()
+

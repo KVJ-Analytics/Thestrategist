@@ -1,0 +1,39 @@
+.tabs-left, .tabs-right {
+  border-bottom: none;
+}
+.tabs-left {
+  border:none;
+}
+.tabs-right {
+  border-left: 1px solid #ddd;
+}
+.tabs-left>li, .tabs-right>li {
+  float: none;
+}
+.tabs-left>li {
+  margin-right: 0px;
+  background:#e1e0e0;
+}
+.tabs-right>li {
+  margin-left: -1px;
+}
+.tabs-left>li.active>a,
+.tabs-left>li.active>a:hover,
+.tabs-left>li.active>a:focus {
+  /*border-bottom-color: #ddd;
+  border-right-color: transparent;*/
+  border:none;
+  background:#eee;
+}
+
+.tabs-right>li.active>a,
+.tabs-right>li.active>a:hover,
+.tabs-right>li.active>a:focus {
+}
+.tabs-left>li>a {
+  margin-right: 0;
+  display:block;
+}
+.tabs-right>li>a {
+  margin-right: 0;
+}

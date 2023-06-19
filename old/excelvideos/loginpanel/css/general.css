@@ -1,0 +1,547 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		5;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	10;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+body{background:url(../images/omanrail_pagebg_brand.png); background-position:center; background-size:100%; background-repeat:no-repeat;}
+
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#LayoutDiv1_brand {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;background:url(../images/omanrail_ourbrandbg.png); background-size:100%; background-repeat:no-repeat; background-position:center 200px; background-size:150%;
+}
+#omanrail_bodyouter{ width:98%; float:none; margin-left:auto; margin-right:auto; background-color:#fff;box-shadow: 0 0 5px 2px #C2C2C2;-webkit-box-shadow: 0 0 5px 2px #C2C2C2;-moz-box-shadow: 0 0 5px 2px #C2C2C2;}
+
+#omanrail_bodyouter_inn{ width:100%; float:left;background-color:#fff;box-shadow: 0 0 15px 2px #C2C2C2;-webkit-box-shadow: 0 0 5px 2px #C2C2C2;-moz-box-shadow: 0 0 5px 2px #C2C2C2;}
+#omanrail_bodyouter_inn_brand{ width:100%; float:left;background:none;box-shadow: 0 0 15px 2px #C2C2C2;-webkit-box-shadow: 0 0 5px 2px #C2C2C2;-moz-box-shadow: 0 0 5px 2px #C2C2C2;}
+
+/*-------Start of Banner----------------*/
+#omanrail_bannerouter{ width:100%; height:auto; float:left;background-color:#fff;}
+#omanrail_bannerouter_top_innerall{ width:100%; height:80px; float:left; position:relative;box-shadow: 0 0 5px 2px #C2C2C2;-webkit-box-shadow: 0 0 5px 2px #C2C2C2;-moz-box-shadow: 0 0 5px 2px #C2C2C2; background:url(../images/omanrail_topbg.png); background-size:150%; background-repeat:no-repeat;-webkit-border-bottom-right-radius: 40px;
+-moz-border-radius-bottomright: 40px;border-bottom-right-radius: 40px; background-position:bottom;}
+#omanrail_banner{ width:100%; height:180px; float:left; background-repeat:repeat-x;background-color:#fff; position:relative;}
+.slides > li {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+#omanrail_banner_top{ width:100%; height:auto; float:left;}
+#omanrail_banner_top_left{ width:100%; height:auto; float:left;}
+#omanrail_banner_top_logo{ width:100%; height:auto; float:left; background:#fff;-webkit-border-bottom-right-radius: 40px;
+-moz-border-radius-bottomright: 40px;border-bottom-right-radius: 40px;}
+
+#omanrail_banner_top_logo_left1{ width:80%; height:auto; float:left; background:#fff; padding-left:10%; margin-top:20px; margin-bottom:20px;}
+#omanrail_banner_top_logo_left1 img{ width:100%;}
+#omanrail_banner_top_logo_right1{ width:25%; height:auto; float:right; background:#fff; padding-top:30px; margin-right:5px;}
+
+#omanrail_bannerright_tab{ width:97%; height:auto; float:right; right:5px;text-align:right; padding-bottom:10px; 
+margin-right:3%;}
+#omanrail_banner_top_arabic{ width:auto; left:20px; position:absolute; top:115px; z-index:300000; width:40px;}
+/*--------end  of Banner----------*/
+
+
+/*-------Start of middle links home----------------*/
+#omanrail_homemiddlelinks_outer{ width:100%; height:280px; float:left; background:url(../images/omanrail_middlelink_bg.jpg); background-position:top; background-size:100%; background-repeat:no-repeat; margin-top:0px;  } 
+#omanrail_homemiddlelinks_top{ width:80%px; height:20px; float:left; text-align:center; color:#a2852b; margin-top:10px; font-size:12px;} 
+.omanrail_homemiddlelinks_textouter{ width:auto; margin-left:auto; margin-right:auto;}
+.omanrail_homemiddlelinks_bigtext{ font-size:18px;}
+
+#omanrail_homemiddlelinks_bottom{ width:100%; height:auto; float:left;color:#a2852b; margin-top:7px; } 
+.omanrail_homemiddlelinks_menu{ width:47%; margin-left:1%; height:auto; float:left;opacity:.9;-webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}
+.omanrail_homemiddlelinks_menu:hover{ width:47%; margin-left:1%; height:auto; float:left; opacity:1;-webkit-transform: scale(.97,.97);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(.97,.97);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}
+.omanrail_homemiddlelinks_menu img{ width:100%; }
+/*-------End of middle links home----------------*/
+/*---Start of Inner links----*/
+.omanrail_innermiddlelinks_menu{ width:100%; height:auto; float:left;opacity:.9;-webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}
+.omanrail_innermiddlelinks_menu:hover{ width:100%; height:auto; float:left; opacity:1;-webkit-transform: scale(.97,.97);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(.97,.97);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}
+.omanrail_innermiddlelinks_menu img{ width:100%;}
+	
+/*---End of Inner links----*/
+/*-------Start of footer top----------------*/
+#omanrail_footertop_outer{ width:100%; background:url(../images/omanrail_footertop.jpg); background-position:center top; height:96px; float:left; background-repeat:no-repeat;box-shadow: 0 0 15px 2px #C2C2C2;-webkit-box-shadow: 0 0 5px 2px #C2C2C2;-moz-box-shadow: 0 0 5px 2px #C2C2C2; background-size:350%;}
+
+#omanrail_footertop_top{width:95%; height:20px; float:left; margin-left:10px; margin-right:10px; margin-top:10px;}
+#omanrail_footertop_bottom{width:auto; height:40px; float:right; margin-left:10px;color:#666; font-size:11px;margin-top:20px;}
+a.omanrail_footertop_bottomlinks{ color:#666; text-decoration:none; font-size:11px; padding-left:3px; padding-right:3px; }
+a.omanrail_footertop_bottomlinks:hover{ color:#a2852b; text-decoration:none; font-size:11px; padding-left:3px; padding-right:3px; }
+/*-------End of footer top----------------*/
+
+/*-------Start of footer ----------------*/
+#omanrail_footer_outer{ width:94%; background:#838179; background-position:center top; height:auto; float:left;box-shadow: 0 0 15px 2px #C2C2C2;-webkit-box-shadow: 0 0 5px 2px #C2C2C2;-moz-box-shadow: 0 0 5px 2px #C2C2C2; background-size:100%; color:#fff; font-size:11px; padding-top:10px; padding-left:3%; padding-right:3%; padding-bottom:10px;}
+#omanrail_footer_outer_left{ float:left; width:auto;}
+#omanrail_footer_outer_right{ float:left; width:auto; padding-top:6px;}
+.omanrail_footer_outer_right_inn{ padding-left:0px; float:left;}
+/*-------End of footer ----------------*/
+
+/*-------Start of Inner Content ----------------*/
+#omanrail_innercontent_outer{width:94%; height:auto; float:left; margin-bottom:20px;}
+#omanrail_innercontent_top{width:100%; height:auto; float:left; margin-left:0px; margin-right:0px; margin-top:10px;}
+#omanrail_innercontent_top_h1{width:90%; height:auto; float:left; font-size:30px; font-family:Arial;color:#a1842b; padding-left:10%}
+#omanrail_innercontent_top_h11{ font-size:30px; float:left;}
+#omanrail_innercontent_top_h2{ font-size:22px; float:left; padding-top:7px;}
+#omanrail_innercontent_top_searchbox{width:70%; height:40px; float:right; font-size:30px; font-family:Arial;color:#a1842b; padding-left:0px; margin-left:0px;}
+.txtsearchdiv{ width:100%; height:35px; padding-top:0px; padding-left:5px; margin-top:0px;  border-style:solid; border-width:1px; border-color:#CCC; border-radius:5px; -moz-border-radius:5px;-webkit-border-radius:5px;
+background: rgba(226,226,226,1);
+background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(230,227,230,0.87) 44%, rgba(209,209,209,0.73) 93%, rgba(209,209,209,0.71) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(44%, rgba(230,227,230,0.87)), color-stop(93%, rgba(209,209,209,0.73)), color-stop(100%, rgba(209,209,209,0.71)));
+background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(230,227,230,0.87) 44%, rgba(209,209,209,0.73) 93%, rgba(209,209,209,0.71) 100%);
+background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(230,227,230,0.87) 44%, rgba(209,209,209,0.73) 93%, rgba(209,209,209,0.71) 100%);
+background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(230,227,230,0.87) 44%, rgba(209,209,209,0.73) 93%, rgba(209,209,209,0.71) 100%);
+background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(230,227,230,0.87) 44%, rgba(209,209,209,0.73) 93%, rgba(209,209,209,0.71) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#d1d1d1', GradientType=1 );float:left;
+}
+.txtsearch{ border:none; width:80%; height:30px; background:none; font-size:16px; color:#666; float:left;margin-top:2px;}
+.btnsubmit{ border:none; background:url(../images/searchicon.png); background-repeat:no-repeat; width:16px; height:16px; background-position:center; margin-top:9px; float:left;}
+
+#omanrail_innercontent_content{ font-family:Arial; font-weight:normal; width:78%; height:187px; float:left; margin-left:10px; margin-right:10px; margin-top:10px; background:url(../images/omanrail_content.jpg);background-position:center; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; margin-bottom:30px;box-shadow: 0 0 5px 2px #C2C2C2;-webkit-box-shadow: 0 0 5px 2px #C2C2C2;-moz-box-shadow: 0 0 5px 2px #C2C2C2; padding-right:10%; color:#a0a0a0; padding-left:5%; padding-top:10px; font-size:12px;   }
+/*-------End of Inner Content ----------------*/
+
+
+/*-------Start of Inner Main Content ----------------*/
+#omanrail_innermaincontent_outer{width:90%; height:auto; float:left; margin-left:5%; margin-bottom:50px;}
+#omanrail_innermaincontent_outer_left{width:100%; height:auto; float:left;}
+#omanrail_innermaincontent_head{ font-size:18px; font-family:Arial;color:#a1842b; width:90%; height:auto; float:left; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; background-size:100%; height:28px; padding-top:5px;margin-top:15px; margin-bottom:15px;padding-left:20px; 
+background: #f1e4bb; /* Old browsers */
+background: -moz-linear-gradient(left, #f1e4bb 0%, #d3ba6d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f1e4bb), color-stop(100%,#d3ba6d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #f1e4bb 0%,#d3ba6d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #f1e4bb 0%,#d3ba6d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #f1e4bb 0%,#d3ba6d 100%); /* IE10+ */
+background: linear-gradient(to right, #f1e4bb 0%,#d3ba6d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e4bb', endColorstr='#d3ba6d',GradientType=1 ); /* IE6-9 */
+ }
+ #omanrail_innermaincontent_headbg{ font-size:20px; font-family:Arial;color:#ffffff; width:90%; height:auto; float:left; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; background-size:100%; height:30px; padding-top:10px; margin-bottom:15px;padding-left:20px; background:url(../images/omanrail_contentheadbg.png); background-position:center;   
+ } 
+#omanrail_innermaincontent_body{width:100%; height:auto; float:left; padding-top:0px;color:#a0a0a0; font-size:13px; text-align:justify;}
+#omanrail_innermaincontent_body ul{ list-style-type: square; margin-left:30px;}
+#omanrail_innermaincontent_bodycnt{width:240px; height:auto; float:left; margin:10px;color:#a0a0a0; font-size:13px; text-align:justify;}
+#omanrail_innermaincontent_bodyimgs{width:50%; height:auto; float:right; margin-left:30px; margin-top:0px;}
+#omanrail_innermaincontent_outer_right{width:90%; height:auto; float:left; margin-top:20px;}
+
+.omanrail_innermaincontent_rightmenum{ width:100%; height:auto; float:left;opacity:.9;-webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms; margin-bottom:10px;margin-right:0px; text-align:center;}
+.omanrail_innermaincontent_rightmenum:hover{ width:90%; height:auto; float:left; opacity:1;-webkit-transform: scale(.97,.97);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(.97,.97);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;margin-bottom:10px;margin-right:0px; text-align:center;}
+.omanrail_innermaincontent_rightmenum img{ width:100%;}
+
+.omanrail_innermaincontent_rightmenu{ width:100%; height:auto; float:left;opacity:.9;-webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms; margin-bottom:10px;margin-right:20px;}
+.omanrail_innermaincontent_rightmenu:hover{ width:100%; height:auto; float:left; opacity:1;-webkit-transform: scale(.97,.97);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(.97,.97);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;margin-bottom:10px;margin-right:20px;}
+	
+	
+#omanrail_innermaincontent_body h2{color:#a18329; height:30px; padding-top:5px; }
+#omanrail_innermaincontent_body h3{color:#a18329; height:30px; padding-top:5px; font-size:15px; }
+#omanrail_innermaincontent_body .content{ padding-left:17px; padding-right:5px;}
+/*-------End of Inner Main Content ----------------*/
+/*-------Start of Inner Right Content ----------------*/
+.omanrail_innerrightlinks_menu{ width:100%; height:auto; float:left;opacity:.9;-webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms; margin-bottom:0px;margin-right:0px;}
+.omanrail_innerrightlinks_menu:hover{ width:100%; height:auto; float:left; opacity:1;-webkit-transform: scale(.97,.97);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(.97,.97);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;margin-bottom:0px;margin-right:0px;}
+.omanrail_innerrightlinks_menu img { width:100%;}
+/*-------End of Inner Right Content ----------------*/
+/*-------Start of Our Team----------------*/
+.omanrail_ourteam_outer{ width:100%; height:auto; float:left; }
+.omanrail_ourteam_boxouter{ width:155px; height:260px; float:left; text-align:center; }
+.omanrail_ourteam_boxphoto{ width:155px; height:auto; float:left; border-style:solid; border-width:2px; border-color:#d6be74; margin-left:auto; margin-right:auto; }
+.omanrail_ourteam_boxphoto img{ width:100%; float:left;}
+.omanrail_ourteam_boxname{width:155px;color: #a68a1f; padding-top:20px; font-family:Arial; font-size:13px; text-align:center;margin-left:auto; margin-right:auto; }
+.omanrail_ourteam_boxdesig{width:155px;color:#a68a1f;font-size:12px; text-align:center;margin-left:auto; margin-right:auto; }
+
+/*-------End of Our Team ----------------*/
+
+/*-------Start of Contact Us----------------*/
+.omanrail_contactus_boxouter{ width:90%; height:auto; float:left; background:url(../images/omanrail_contactus_topbg.jpg); background-size:190%;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:5%; font-family:Arial; font-size:15px; color:#B9B9B9; line-height:20px;}
+.omanrail_contactus_boxouter a{ color:#d9c068; text-decoration:none;}
+.omanrail_contactus_boxouter a:hover{ color:#000; text-decoration:none;}
+
+.omanrail_contactus_formouter{ width:100%; height:auto; margin-top:10px; float:left; }
+.omanrail_contactus_formcntlouter{ width:100%; height:auto; margin-top:10px; margin-bottom:10px; }
+.omanrail_contactus_formcntlouter input{ width:95%; height:30px; background-repeat:repeat-x;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border-color:#ccc; border-style:solid; border-width:1px; padding:5px; color:#666; font-size:14px; background-position:center;box-shadow: 0 0 1px 1px #efefef;-webkit-box-shadow: 0 0 1px 1px #efefef;-moz-box-shadow: 0 0 1px 1px #efefef;background: #e5e5e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #e5e5e5 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.omanrail_contactus_formcntlouter select{ width:98%; height:40px; background-repeat:repeat-x;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border-color:#ccc; border-style:solid; border-width:1px; padding:5px; color:#666; font-size:14px; background-position:center;box-shadow: 0 0 1px 1px #efefef;-webkit-box-shadow: 0 0 1px 1px #efefef;-moz-box-shadow: 0 0 1px 1px #efefef;background: #e5e5e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #e5e5e5 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+.omanrail_contactus_formcntlouter textarea{ width:95%; height:93px;background-repeat:repeat-x;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border-color:#ccc; border-style:solid; border-width:1px; padding:5px; color:#666; font-size:14px;box-shadow: 0 0 2px 2px #efefef;-webkit-box-shadow: 0 0 2px 2px #efefef;-moz-box-shadow: 0 0 2px 2px #efefef;background: #e5e5e5; /* Old browsers */
+background: -moz-linear-gradient(top,  #e5e5e5 0%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.omanrail_contactus_formcntlouter .btn{ width:110px; height:30px; float:left; background:url(../images/button.png); background-position:center; padding-bottom:25px; color:#feffbf; margin-right:13px; font-size:14px;}
+.omanrail_contactus_formcntlouter .btn:hover{ width:110px; height:30px; float:left; background:url(../images/button.png); background-position:center; padding-bottom:14px; color:#feffbf; margin-right:13px; font-size:14px; opacity:0.8;}
+/*-------End of Contact Us----------------*/
+
+/*-------Start of Breadcrumbs----------------*/
+.omanrail_breadcrumbs_outer{ width:90%; height:20px; font-size:13px; color:#333; margin-left:auto; margin-right:auto; }
+.omanrail_breadcrumbs_outer_inn{ width:100%; height:20px; font-size:13px; color:#333; float:left; margin-top:65px; }
+.omanrail_breadcrumbs_outer a{ font-size:13px; color:#333; text-decoration:none; }
+.omanrail_breadcrumbs_outer a:hover{ font-size:13px; color:#e9d179; text-decoration:none; }
+/*-------End  of Breadcrumbs----------------*/
+/*-------Start of News----------------*/
+.omanrail_news_outer{ width:100%; height:auto; font-size:13px; color:#333; margin-left:auto; margin-right:auto; }
+.omanrail_news_outer_inn{ width:90%; height:auto; font-size:13px; color:#333; float:left; margin-right:5%; margin-left:auto; margin-right:auto; margin-bottom:20px; }
+.omanrail_news_outer_inn_img{ width:100%; height:auto; font-size:13px; color:#333; float:left; background:#a17f33; padding-top:20px; border-top-left-radius:5px; border-top-right-radius:5px;-moz-border-top-left-radius:5px;-webkit-border-top-left-radius:5px;-moz-border-top-right-radius:5px;-webkit-border-top-right-radius:5px; }
+.omanrail_news_outer_inn_img img{ width:100%;}
+.omanrail_news_date_outer{ width:100%; float:left;background:#e2e4ce; height:30px;}
+.omanrail_news_day{ background:#a17f33; float:left; height:25px; font-size:19px; padding-top:5px; color:#e2e4ce;}
+.omanrail_news_monthyear{ float:left;height:25px; font-size:19px; padding-top:5px; color:#a17f33;}
+.omanrail_news_heading1{ color:#697022; font-size:17px; float:left; padding-top:5px; padding-bottom:5px;}
+.omanrail_newscontent{ float:left; line-height:16px; font-size:13px;}
+.omanrail_news_right_outer{ border-radius:10px; -moz-border-radius:10px;-webkit-border-radius:10px; background:#e2e4ce; 
+width:230px;padding:10px; float:left;}
+.omanrail_news_right_outer_h1{width:100%; height:auto; float:left; font-size:30px; font-family:Arial;color:#a1842b; padding-bottom:10px;} 
+.omanrail_news_right_outer_h2{width:100%; height:auto; float:left; font-size:17px; font-family:Arial; text-align:center;color:#697022; padding-top:10px; padding-bottom:10px;}
+a.news_button{ width:100%; height:30px; background:url(../images/button.png); border-radius:10px; -moz-border-radius:10px;-webkit-border-radius:10px; float:left; margin-top:10px; font-size:11px; color:#fff; text-decoration:none; text-align:center; padding-top:10px;}
+a.news_button:hover{ width:100%; height:30px; background:url(../images/button.png); border-radius:10px; -moz-border-radius:10px;-webkit-border-radius:10px; float:left; margin-top:10px; font-size:11px; color:#fff; text-decoration:none; text-align:center; padding-top:10px; opacity:0.8;}
+.omanrail_news_right_outer input{width:94%; height:auto; float:left; font-size:17px; font-family:Arial;color:#697022; padding:3%; border-style:solid; border-color:#999; border-width:1px; margin-top:5px; margin-bottom:5px;}
+a.news_button img{ display:inline;}
+
+
+.omanrail_news_archives{ width:98%; margin-left:auto; margin-right:auto;}
+.omanrail_news_archives_head{ width:100%; margin-left:auto; margin-right:auto; background:url(../images/omanrail_news_archive_headbg.jpg); padding-bottom:20px; background-repeat:repeat-x; background-position:bottom; color:#697022; font-size:28px; font-family:Arial; margin-top:20px; margin-bottom:20px;}
+.omanrail_news_archives_outer{ width:100%; float:left; margin-bottom:40px; background:url(../images/omanrail_archieve_bgbottom.jpg); background-position:bottom; padding-bottom:20px; background-repeat:repeat-x;}
+.omanrail_news_archives_outer_left{ width:264px; float:left; overflow:hidden; height:160px;}
+.omanrail_news_archives_boxouter{ width:264px; float:left; height:160px;}
+.omanrail_news_archives_boxoutertop{ width:260px; float:left; height:110px;}
+.omanrail_news_archives_boxoutertop img{ background:#fbf6e7; padding:4px; width:100px; float:left; height:100px; margin:2px;}
+.omanrail_news_archives_boxoutertop_content{ background:#fbf6e7; padding:4px; width:130px; float:left;height:100px; 
+color:#a17f33; font-size:13px; margin:2px;}
+.omanrail_news_archves_date_outer{ width:248px; float:left;background:#fbf6e7; height:30px; margin-left:4px; margin-top:3px;}
+.omanrail_news_archves_day{ background:#a17f33; float:left; height:25px; font-size:22px; padding-top:5px; color:#e2e4ce;}
+.omanrail_news_archves_monthyear{ float:left;height:25px; font-size:19px; padding-top:5px; color:#a17f33;}
+.omanrail_news_archives_outer_right{width:55px; float:left;}
+.omanrail_news_archves_readmore{ width:55px; background:url(../images/archieve_readmore_bg.jpg); background-repeat:repeat-y; height:95px; float:left; padding-top:50px; text-align:center;color:#a17f33; font-size:10px;}
+
+.omanrail_news_archves_readmore a{ text-decoration:none; color:#a17f33;}
+.omanrail_news_archves_readmore a:hover{ text-decoration:none; color:#000000;}
+.omanrail_archivesearch_outer{ background:#a2842a; float:left; border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px; width:190px; height:127px; padding-top:10px; color:#fff; margin-right:60px;}
+.omanrail_archiveform{ width:160px; padding-right:10px; padding-left:20px; }
+
+.omanrail_archiveform select{ height:25px; border-radius:5px; -moz-border-radius:5px;; -webkit-border-radius:5px;}
+a.omanrail_archivesearchbtn{ height:23px; padding-top:5px; color:#fff; width:135px; background:#54451d; text-align:center; text-decoration:none; float:right; margin-right:25px; margin-top:10px; margin-left:10px;}
+/*-------End  of News----------------*/
+
+
+.curveimg{ border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+.curveimgshadow{ border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; border-style:solid; border-color:#CCC; border-width:1px; box-shadow: 0px 0px 2px 1px rgba(236,233,233,0.75); -moz-box-shadow: 0px 0px 2px 1px rgba(236,233,233,0.75);-webkit-box-shadow: 0px 0px 2px 1px rgba(236,233,233,0.75);}
+.table_tr_head{border-bottom-style:solid; border-bottom-color:#a78820; border-bottom-width:2px; background:#fbf6e7; color:#a78820; font-weight:bold;}
+.table_tr_nocolor{border-bottom-style:solid; border-bottom-color:#ccc; border-bottom-width:1px; font-size:13px;}
+.table_tr_color{border-bottom-style:solid; border-bottom-color:#ccc; border-bottom-width:1px; background:#fbf6e7;font-size:13px;}
+#omanrail_innermaincontent_body td{word-wrap:break-word;}
+#omanrail_innermaincontent_body table{ table-layout:fixed;}
+
+.omanrail_newsmore_outer{ width:98%; height:auto; font-size:13px; color:#333; margin-left:auto; margin-right:auto; }
+.omanrail_newsmore_outer_inn{ width:100%; height:auto; font-size:13px; color:#333; float:left; margin-right:5%; background:#a17f33; padding-top:20px; border-top-left-radius:5px; border-top-right-radius:5px;-moz-border-top-left-radius:5px;-webkit-border-top-left-radius:5px;-moz-border-top-right-radius:5px;-webkit-border-top-right-radius:5px;}
+.omanrail_newsmore_outer_inn_img{ width:100%; height:auto; font-size:13px; color:#333; float:left;  }
+.omanrail_newsmore_outer_inn_img img{ width:100%;}
+.omanrail_newsmore_date_outer{ width:100%; float:left;background:#e2e4ce; height:30px;}
+.omanrail_newsmore_day{ background:#a17f33; float:left; height:25px; font-size:19px; padding-top:5px; color:#e2e4ce;}
+.omanrail_newsmore_monthyear{ float:left;height:25px; font-size:19px; padding-top:5px; color:#a17f33;}
+.omanrail_newsmore_heading1{ color:#697022; font-size:19px; float:left; padding-top:5px; padding-bottom:5px;background:#e2e4ce;  width:98%; padding-left:1%; padding-right:1%;}
+.omanrail_newsmorecontent{ float:left; line-height:20px; font-size:15px; background:#fff; padding-top:10px;}
+
+a.omanrail_newsmore_archivelink{float:left; font-size:20px; font-family:Arial;color:#a1842b; text-decoration:none; width:120px; text-align:center; background:url(../images/omanrail_contactus_topbg.jpg); border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px; height:30px; padding-top:10px; float:left;}
+a.omanrail_newsmore_archivelink:hover{float:left; font-size:20px; font-family:Arial;color:#000000;text-decoration:none;width:120px; text-align:center; background:url(../images/omanrail_contactus_topbg.jpg); border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px; height:30px; padding-top:10px; float:left; opacity:0.8;}
+
+
+/*-------Start of Popup----------------*/
+#PopUpSlide{ width:90%; margin-left:10px; margin-right:auto; height:auto; background:#fff; position:fixed; top:30px; z-index:300000; border-color:#ccc; border-style:solid; border-width:1px; padding:10px;box-shadow: 0 0 2px 2px #efefef;-webkit-box-shadow: 0 0 2px 2px #efefef;-moz-box-shadow: 0 0 2px 2px #efefef; height:300px; }
+#close{ width:100%; height:auto; text-align:right;}
+#popup_photoouter{ width:100%; float:left}
+#popup_photoouterimg{ width:50px; float:left; padding-left:20px;}
+#popup_photoouter img{ width:50px; float:left;border-style:solid; border-width:2px; border-color:#d6be74;}
+ 
+#popup_photooutercontent{ width:auto; padding-left:26px; float:left; padding-top:5px; font-size:11px;}
+#popup_bottomcontent{ width:80%; float:left; padding:10%; text-align:justify;overflow:scroll; height:100px;}
+#PopUpSlide .teamname{width:auto;color: #a68a1f; font-family:Arial; font-size:14px; font-weight:bold;}
+#PopUpSlide .teamdesig{width:auto;color: #a68a1f;font-family:Arial; font-size:12px; font-weight:bold;}
+
+/*-------End  of Popup----------------*/
+
+/*-------Start of Project----------------*/
+a.omanrail_projects_belowgcc{ width:90%;background:url(../images/content_images/omanrail_projects_2.jpg); height:56px; 
+float:left; font-size:15px; color:#a2842a; padding-top:10px; padding-left:10%; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; background-size:100%; text-decoration:none;border-color:#F2F2F2; border-width:1px; 
+border-style:solid;
+opacity:.9;-webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}
+a.omanrail_projects_belowgcc:hover{ opacity:1;-webkit-transform: scale(.97,.97);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(.97,.97);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}	
+	
+a.omanrail_projects_belowsupply{ width:90%;  height:auto; float:left; font-size:20px; color:#ffffff; padding-top:0px; padding-left:0%; background-repeat:no-repeat;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;background-size:100%; text-decoration:none;}
+
+/*-------End of Projects----------------*/
+/*-------Start of gallery----------------*/
+.omanrail_gallery_outer{ width:100%; height:auto; float:left; text-align:center; color:#fff;}
+.omanrail_gallery_outer h4{color:#a2842a; font-size:20px; float:left;padding-bottom:20px;padding-top:20px;}
+.omanrail_gallery_imgouter{ width:250px; float:left; background:#a2842a; padding:5px; margin:10px;}
+/*-------End of Gallery----------------*/
+/*-------Start of video gallery----------------*/
+.omanrail_videogallery_outer{ width:100%; height:auto; float:left;}
+.omanrail_videogallery_outer h4{color:#a2842a;font-size:20px; padding-bottom:20px; padding-top:20px;}
+.omanrail_videogallery_imgouter{ width:250px; float:left; background:#a2842a; padding:5px; margin:10px;}
+/*-------End of video Gallery----------------*/
+
+/*-------Start of presskits----------------*/
+.omanrail_presskits_outer{color:#a2842a;font-size:20px; padding-bottom:10px; padding-top:10px; width:100%; float:left;}
+.omanrail_presskits_outer_left{color:#a2842a;font-size:20px; padding-bottom:5px; padding-top:5px; width:50%; float:left;}
+.omanrail_presskits_outer_right{color:#a2842a;font-size:20px; padding-bottom:5px; padding-top:5px; width:40%; float:left; padding-left:10%;}
+
+a.download_btn{ background:#a2842a; padding-left:10px; padding-right:10px; float:left; color:#fff; padding-top:5px; padding-bottom:5px; font-size:14px; text-decoration:none;}
+a.download_btn:hover{ background:#000000; padding-left:10px; padding-right:10px; float:left; color:#fff; padding-top:5px; padding-bottom:5px; font-size:14px; text-decoration:none;}
+
+/*-------End of presskits----------------*/
+
+/*-------start of newsletter----------------*/
+.omanrail_projects_abovenewsletter{width:90%;background:url(../images/content_images/omanrail_projects_2.jpg); height:56px; 
+float:left; font-size:15px; color:#a2842a; padding-top:10px; padding-left:10%; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; background-size:100%; border-style:solid; border-color:#CCC; border-width:1px;}
+.omanrail_projects_abovenewsletter:hover{ opacity:1;-webkit-transform: scale(.97,.97);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(.97,.97);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}	
+/*-------End of newsletter----------------*/
+/*-------start of events----------------*/
+.omanrail_eventsouter{ width:90%; float:left; height:auto; background:#a2842a; margin-right:5px; margin-bottom:20px; padding-left:20px;}
+.omanrail_eventsouterinn{ width:100%; float:left; height:auto; background:#f5efdf;}
+.omanrail_events_image{ width:100%; float:none;}
+.omanrail_events_content{ padding:8px; float:none; width:190px; font-size:13.4px; color:#c6af61;} 
+.omanrail_events_content_cnt{ padding:8px; float:left; width:190px; font-size:13.4px; color:#c6af61; height:55px;} 
+.omanrail_events_content h4{ color:#a2842a; font-size:15px; float:left; margin-top:0px; margin-bottom:5px; text-align:left; height:47px; overflow:hidden;}
+.omanrail_events_contentdate{ float:left; width:190px; font-size:14px; padding-top:13px;} 
+.omanrail_events_contentday{ float:left; padding:3px; background:#7b8a2f; color:#c6af61; font-size:20px;}
+.omanrail_events_contentdateoth{ float:left; padding:5px;  font-size:16px;}
+.omanrail_events_contenttop{ width:94%; height:auto; float:left; background:url(../images/omanrail_contactus_topbg.jpg); background-size:950%;border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px; padding:3%; font-family:Arial; font-size:18px; color:#B9B9B9; line-height:25px; background-repeat:no-repeat; margin-bottom:20px; text-align:justify;}
+
+.omanrail_events_calendar_outer{ width:100%; border-radius:5px; -moz-border-radius:5px; -webkit--border-radius:5px; padding:
+5px; background:#f5efdf;margin-bottom:20px;}
+.omanrail_events_calendar_head{ font-size:25px; width:100%; color:#c7ab58; }
+.omanrail_events_calendar_outer a{ font-weight:bold; text-decoration:none; color:#333;}
+.omanrail_events_calendar_outer td{font-size:12px;}
+.omanrail_events_archive{font-size:18px; width:100%;text-align:right;}
+a.omanrail_events_archiveinn{font-size:18px; text-decoration:none; color:#c7ab58; }
+a.omanrail_events_archiveinn:hover{font-size:18px; text-decoration:none; color:#c7ab58; }
+/*-------End of events----------------*/
+
+
+/*-------start of tooltip-------------*/
+a.tooltip {outline:none; } 
+a.tooltip strong {line-height:30px;} 
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span { z-index:10;display:none; padding:14px 20px; margin-top:-30px; margin-left:8px; width:auto; line-height:16px; } a.tooltip:hover span{ display:inline; position:absolute; color:#111; border:1px solid #DCA; background:#fffAF0; left:-10px; width:160px;} 
+.callout {z-index:20;position:absolute;top:30px;border:0;left:-12px;}
+ /*CSS3 extras*/ 
+a.tooltip span { border-radius:4px; box-shadow: 5px 5px 8px #CCC; }
+/*-------End of tooltip----------------*/
+
+
+/*-------start of image----------------*/
+#omanrail_innermaincontent_body img{ float:left;opacity:.9;-webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}
+#omanrail_innermaincontent_body img:hover{  float:left; opacity:1;-webkit-transform: scale(.97,.97);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(.97,.97);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms;}
+	
+	/*------end of image----------------*/
+	
+	/*------start of paging----------------*/
+	a.SearchBig{
+	background-color: #a2842a;
+	height: 25px;
+	padding-right: 4px;
+	padding-left: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+a.SearchBig:hover{
+	background-color: #CC3366;
+	height: 25px;
+	padding-right: 4px;
+	padding-left: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.SearchSelect{
+background-color: #DA0283;
+	height: 25px;
+	padding-right: 4px;
+	padding-left: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.search_rightlink {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #DA0283;
+	text-decoration: none;
+	font-weight: bold;
+	background:none;
+	border-style:none;
+}
+.search_rightlink:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+}	
+	/*------end of paging----------------*/
+	
+	
+	a.youtube{ width:31px; height:25px; background:url(../images/youtube.png); float:left;}
+	a.youtube:hover{ width:31px; height:25px; background:url(../images/youtube_h.png); float:left;}
+	
+	a.twitter{ width:31px; height:25px; background:url(../images/twitter.png); float:left;}
+	a.twitter:hover{ width:31px; height:25px; background:url(../images/twitter_h.png); float:left;}
+	
+	a.linkedin{ width:31px; height:25px; background:url(../images/linkedin.png); float:left;}
+	a.linkedin:hover{ width:31px; height:25px; background:url(../images/linkedin_h.png); float:left;}
+	
+	a.facebook{ width:31px; height:25px; background:url(../images/facebook.png); float:left;}
+	a.facebook:hover{ width:31px; height:25px; background:url(../images/facebook_h.png); float:left;}
+	
+	a.instagram{ width:31px; height:25px; background:url(../images/instagram.png); float:left;}
+	a.instagram:hover{ width:31px; height:25px; background:url(../images/instagram_h.png); float:left;}
+	
+	
+/*-------start of qhse----------------*/
+.omanrail_qhseouter{ width:210px; border-style:solid; border-color:#CCC; border-width:1px; padding-left:20px; padding-right:20px;
+margin-left:15px; margin-right:15px; float:left; font-size:14px; line-height:26px; margin-bottom:20px;}
+
+
+/*-------End of qhse----------------*/

@@ -1,0 +1,5 @@
+[12-Sep-2022 11:39:05 America/New_York] Default exception handler: This user has already been deleted. Debug: 
+Error code: usernotdeleteddeleted
+* line 497 of /lib/setuplib.php: moodle_exception thrown
+* line 88 of /admin/user.php: call to print_error()
+

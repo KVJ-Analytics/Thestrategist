@@ -1,0 +1,3 @@
+[27-Jan-2023 09:53:47 America/New_York] Exception ignored in shutdown function tool_log\log\manager::dispose: Error reading from database (Commands out of sync; you can't run this command now
+SHOW VARIABLES LIKE 'max_allowed_packet'
+[NULL])

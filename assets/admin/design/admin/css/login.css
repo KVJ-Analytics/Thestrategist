@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+.login-wrapper{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+.login-box{
+	padding:36px 45px;
+	width:280px;
+	height:370px;
+	margin-top:-221px;
+	margin-left:-185px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	background:url(../images/login-form-bg.png) no-repeat;
+	text-align: center;
+}
+.login-logo{
+	width:100%;
+	height:100px;
+	text-align:center;
+	margin-bottom:28px;
+}
+.login-logo img{
+	max-width:80%;
+	padding-top:30px;
+	max-height:90%;
+}
+.login-input-div{
+	width:80%;
+	height:33px;
+	margin:0 auto;
+	border-radius:20px;
+	overflow:hidden;
+	background:#d5af7b;
+	border:none;
+	
+	-webkit-box-shadow: inset 229px -9px 9px rgba(0,0,0,.75);
+    -moz-box-shadow: inset 229px -9px 9px rgba(0,0,0,.75);
+        box-shadow: inset 229px -9px 9px rgba(0,0,0,.75);
+	margin-bottom:30px;
+}
+.login-box input[type=text]{
+	width:180px;
+	height:30px;
+	margin:0 auto;
+	border-radius:20px;
+	overflow:hidden;
+	background:#d5af7b url(../images/login_user_ico.png) no-repeat 24px 7px;
+	border:none;
+	outline:none;
+	 -webkit-box-shadow: inset 0 -2px 3px rgba(251,247,193,.75);
+    -moz-box-shadow: inset 0 -2px 3px rgba(251,247,193,.75);
+    box-shadow: inset 0 -2px 3px rgba(251,247,193,.75);
+    margin-top: 1px;	
+	padding-left:45px;
+	color: #906e3c;
+   	font-size:14px;
+}
+.login-box input[type=password]{
+	width:160px;
+	height:30px;
+	margin:0 auto;
+	border-radius:20px;
+	overflow:hidden;
+	background:#d5af7b url(../images/login_pass_bg.png) no-repeat 24px 7px;
+	border:none;
+	outline:none;
+	 -webkit-box-shadow: inset 0 -2px 3px rgba(251,247,193,.75);
+    -moz-box-shadow: inset 0 -2px 3px rgba(251,247,193,.75);
+    box-shadow: inset 0 -2px 3px rgba(251,247,193,.75);
+    margin-top: 1px;	
+	padding-left:64px;
+	color: #906e3c;
+   	font-size:14px;
+}
+.login-box input[type=text]::-webkit-input-placeholder {
+   color: #906e3c;
+   font-size:14px;
+}
+
+.login-box input[type=password]::-webkit-input-placeholder {
+   color: #906e3c;
+   font-size:14px;
+}
+.login-box input[type=submit]{
+	width:251px;
+	height:54px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	background:url(../images/login-btn.png) no-repeat;
+	margin-bottom:40px;
+}
+.login-box a{
+	color:#875711;
+	font-size:14px;
+	text-transform:capitalize;
+	text-decoration:none;
+}	

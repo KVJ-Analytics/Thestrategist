@@ -1,0 +1,26 @@
+body { font-family: Poppins;font-size: 14px;font-weight: 500;color: #9c9c9c;line-height: 26px; }
+.navbar-brand .site-logo-text { font-family: Raleway;font-size: 20px;font-weight: 500;color: #292929;line-height: 26px; }
+.fullwidth .container, .tpath-owl-carousel .owl-controls { max-width: 1200px; }
+.fullwidth .container-big { max-width: 1260px; }
+.boxed #tpath_wrapper { max-width: 1200px; }
+.boxed .container, .tpath-owl-carousel .owl-controls, .boxed .is-sticky .sticky-header-wrap { max-width: 1200px; }
+.boxed .container-big { max-width: 1320px; }
+.dropdown-menu { min-width: 220px; }
+h1 { font-family: Roboto Condensed;font-size: 55px;font-weight: 700;color: #202a30;line-height: 50px; }
+h2, h2 > a { font-family: Roboto Condensed;font-size: 48px;font-weight: 700;color: #202a30;line-height: 45px; }
+h3, .vc_cta3-content-header h4, blockquote, .blockquote-reverse, .tpath-blockquote-block .blockquote-text { font-family: Roboto Condensed;font-size: 42px;font-weight: 700;color: #202a30;line-height: 38px; }
+h4 { font-family: Roboto Condensed;font-size: 35px;font-weight: 700;color: #202a30;line-height: 28px; }
+h5 { font-family: Roboto Condensed;font-size: 28px;font-weight: 700;color: #202a30;line-height: 24px; }
+h6, .vc_progress_bar .vc_label, .vc_label { font-family: Roboto Condensed;font-size: 20px;font-weight: 700;color: #202a30;line-height: 25px; }
+.text-italic { font-family: EB Garamond;font-size: 20px;font-weight: 400;color: #888888;line-height: 25px; }
+.btn, .form-submit .submit, .vc_general.vc_btn3, .tpath-simple-btn, .entry-footer .read-more .btn-more, .pager li > a, .pager li > span, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt { font-family: Raleway;font-size: 12px;font-weight: 700;line-height: 26px; }
+.header-topbar-section .tpath-top-nav .navbar-nav > li > a { font-family: Poppins;font-size: 12px;font-weight: 300;line-height: 50px; }
+.header-section.header-styletwo.header-light .tpath-main-nav.nav.navbar-nav > li > a, .nav.navbar-nav.tpath-main-nav li a, .nav.navbar-nav.tpath-main-nav li span.menu-toggler, .menu-icon-box { font-family: Poppins;font-size: 14px;font-weight: 600;color: ; }
+.nav.navbar-nav.tpath-main-nav .dropdown-menu a, .nav.navbar-nav.tpath-main-nav li .tpath-megamenu-container .tpath-megamenu a { font-family: Poppins;font-size: 13px;font-weight: 600;line-height: 20px; }
+.parallax-title, .tpath-section-title .section-title { font-family: Roboto Condensed;font-weight: 700; }
+.page-title-header h1, .page-title-header h1.entry-title { font-family: Roboto Condensed;font-size: 40px;font-weight: 700;line-height: 35px; }
+.entry-title.blog-post-title > a { font-family: Roboto Condensed;font-size: 23px;font-weight: 700;color: #202a30;line-height: 20px; }
+.widget h3.widget-title { font-family: Roboto Condensed;font-size: 18px;font-weight: 700;color: #202a30;line-height: 22px; }
+.sidebar .widget p, .sidebar .widget ul li, .sidebar .widget div, .sidebar .widget ul li > a { font-family: Poppins;font-size: 14px;font-weight: 500;color: #9c9c9c;line-height: 25px; }
+.footer-widgets .widget h3.widget-title { font-family: Roboto Condensed;font-size: 20px;font-weight: 700;line-height: 22px; }
+.footer-widgets div, .footer-widgets p, .footer-widgets .widget_categories ul li a, .footer-copyright-section p { font-family: Poppins;font-size: 14px;font-weight: 400;line-height: 25px; }

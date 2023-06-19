@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*----------------------Theme Color-------------------------------------*/
+
+.skin-blue .main-header .navbar {
+  	background-color: #193351;
+}
+li.active .sa-icon						{color:#18bc9c;}
+li:hover .sa-icon						{color:#18bc9c;}
+
+/*----------------------Theme Color-------------------------------------*/
+
+/*----------------------Top Nav Color-------------------------------------*/
+.main-header .logo img {
+	max-width:155px;
+}
+.skin-blue .main-header .navbar .nav > li > a {
+    color: #ffffff;
+}
+.sa-color1 {
+    color: #fff!important;
+}
+
+.user-sec{
+	background:#303238;
+	min-height:50px;
+}
+
+.skin-blue .main-header li.user-header {
+    background-color: #565656;
+}
+.navbar-nav > .user-menu > .dropdown-menu > .user-footer {
+    background-color: #818080;
+}
+
+.skin-blue .main-header .navbar .nav > li > a:hover, .skin-blue .main-header .navbar .nav > li > a:active, .skin-blue .main-header .navbar .nav > li > a:focus, .skin-blue .main-header .navbar .nav .open > a, .skin-blue .main-header .navbar .nav .open > a:hover, .skin-blue .main-header .navbar .nav .open > a:focus, .skin-blue .main-header .navbar .nav > .active > a {
+    background: rgb(0, 0, 0);
+    color: #f6f6f6;
+}
+.skin-blue .main-header .navbar-custom-menu .nav > li > a:hover{
+	background: rgb(54, 212, 181);
+	color: #f6f6f6;
+}	
+/*----------------------Top Nav Color-------------------------------------*/
+
+/*----------------------Menu Font Color-------------------------------------*/
+
+.skin-blue .sidebar a {
+    color: #9b9ba3;
+}
+.skin-blue .sidebar-menu > li > .treeview-menu{
+	background:#1A1B20;
+	padding: 10px 0;
+}	
+.skin-blue .treeview-menu > li > a {
+    color: #9b9ba3;
+    border-bottom: none; 
+}
+.skin-blue .treeview-menu > li > a:hover {
+	color: #18bc9c;
+}
+
+/*----------------------Menu Font Color-------------------------------------*/
+
+/*---------------------- wrapper Background  Color-------------------------------------*/
+
+.content-wrapper{
+    background-color: #f4f4f4;
+	position:relative;
+}
+
+.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+    background-color: #323641;
+}
+
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a {
+    background: #1a1b20;
+}
+
+/*---------------------- wrapper Background  Color-------------------------------------*/
+
+/*---------------------- Login Background  Color-------------------------------------*/
+
+.login-wrapper{
+	/*background:url(../images/abstract.jpg) no-repeat;/*
+	
+}
+
+/*---------------------- Login Background  Color-------------------------------------*/

@@ -1,0 +1,23 @@
+[12-Apr-2023 15:42:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/featured.php:5
+Stack trace:
+#0 {main}
+  thrown in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/featured.php on line 5
+[12-Apr-2023 15:42:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/footer.php:32
+Stack trace:
+#0 {main}
+  thrown in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/footer.php on line 32
+[12-Apr-2023 15:42:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/search.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/search.php on line 18
+[12-Apr-2023 15:42:12 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/sub_head.php on line 1
+[12-Apr-2023 15:42:12 UTC] PHP Warning:  include(config.php): failed to open stream: No such file or directory in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/sub_head.php on line 1
+[12-Apr-2023 15:42:12 UTC] PHP Warning:  include(): Failed opening 'config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/sub_head.php on line 1
+[12-Apr-2023 15:42:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/sub_head.php:33
+Stack trace:
+#0 {main}
+  thrown in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/sub_head.php on line 33
+[12-Apr-2023 15:42:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/top_nav1.php:7
+Stack trace:
+#0 {main}
+  thrown in /home3/thestr/public_html/assets/admin/js/tinymce/plugins/jbimages/js/top_nav1.php on line 7

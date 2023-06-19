@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+.image-car{width:100%;height:auto;text-align:center;}
+#bx-pager{display: inline-block; margin-top: 10px;}
+.info_box{width:100%;height:auto;margin-top: 15px;}
+.details_head{width:100%;height:auto;background:#dedede;}
+.details_head h4{padding-left:15px;color:#575445;display:inline-block;float:left;font-size:16px;line-height:normal;font-weight:600;text-transform:uppercase;padding:10px 0;padding-left:15px;}
+.details_head ul{padding:0;margin:0;float:right;}
+.details_head ul li{float:left;font-size:16px;line-height:normal;padding:10px 15px;font-weight:600;color:#fff;list-style:none; text-decoration:none;}
+.type{background:#8e1635;}
+.price-tag{background:#112c4a;}
+.details_contentarea{
+	width:100%;
+	height:auto;
+	padding:15px;
+	border:1px #dedede solid;
+}
+.details_contentarea ul{padding:0;margin:0;border:1px #e4e4e4 solid;background:#f5f5f5;}
+.details_contentarea ul li{float:left;padding:15px;border-right:1px #e4e4e4 solid;font-weight:600; list-style:none; text-decoration:none;}
+.details_contentarea ul li img{padding-right:10px;}
+.details_contentarea h4{color:#575445;font-size:16px;line-height:normal;font-weight:600;padding:10px 0;}
+.details_contentarea table {margin-bottom:15px;}
+.details_contentarea table tr td{padding:5px 0;color: #666767;}
+.details_contentarea p{color: #666767;padding-bottom:10px;}

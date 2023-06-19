@@ -1,0 +1,1 @@
+<?php $site_email="info@gstoman.com";?>
